@@ -67,6 +67,11 @@ main {
 }
 /* FOOTER */
 footer {
-  min-height: 20px;
-  background-color: brown;
+  background-color: black;
+}
+footer p {
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  font-family: "roboto", serif;
 }
