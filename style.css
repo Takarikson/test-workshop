@@ -67,10 +67,15 @@ header h1 {
 main {
   max-width: 1440px;
   margin: 5vh auto;
+  font-size: 0;
 }
 main p.description {
   font-size: 1.5rem;
   text-align: center;
+}
+main section.features {
+  background-color: beige;
+  padding-bottom: 30px;
 }
 .features {
   max-width: 1440px;
@@ -79,19 +84,25 @@ main p.description {
   margin: 0 30px 50px 30px;
   line-height: 170%;
 }
-.feature {
+main div.feature {
   display: inline-block;
   width: 33%;
+  padding-top: 50px;
 }
-.image {
-  background-color: black;
-  width: 300px;
-  height: 300px;
-  text-align: center;
+main div.image {
+  background-color: royalblue;
+  height: 200px;
+  margin: 20px 30px;
+  transition: 0.7s;
+}
+main div.image:hover {
+  background-color: aqua;
 }
 main h2 {
-  font-size: 1rem;
-  padding-top: 10px;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 30px;
+  color: #222;
 }
 /* FOOTER */
 footer {
